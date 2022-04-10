@@ -34,7 +34,6 @@ class CameraPreviewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide();
-        //Binding do layout
         binding = ActivityCameraPreviewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -42,9 +41,8 @@ class CameraPreviewActivity : AppCompatActivity() {
         cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
         imgCaptureExecutor = Executors.newSingleThreadExecutor()
 
-        //Chamar o método startCamera
         startCamera()
-        //evento clique no botão
+
         binding.btnTakePhoto.setOnClickListener{
             takePhoto()
             if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
@@ -55,7 +53,6 @@ class CameraPreviewActivity : AppCompatActivity() {
 
     private fun startCamera(){
         cameraProviderFuture.addListener({
-
             imageCapture = ImageCapture.Builder().build()
 
             val cameraProvider = cameraProviderFuture.get()
