@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "705927863407",
+    "project_id": "pi-teste",
+    "storage_bucket": "pi-teste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705927863407:android:54d02f2bf36a69f8f9819a",
+        "android_client_info": {
+          "package_name": "com.example.takephotos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705927863407-jh5cfcl2j89cb560vnom1k5jg9io8078.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvCueZMYIVULWch2X4xqKR_6Btbj8LiH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705927863407-jh5cfcl2j89cb560vnom1k5jg9io8078.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

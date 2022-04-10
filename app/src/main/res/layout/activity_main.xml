@@ -51,5 +51,11 @@
             />
     </LinearLayout>
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/uploadImage"
+        android:text="Enviar imagens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
